@@ -20,22 +20,39 @@
             android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/iv_foto"
+            android:layout_below="@id/iv_foto"
             android:text="Nama Bimbel"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_marginLeft="16dp"/>
+           />
 
         <TextView
             android:id="@+id/tv_tentang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Deskripsi Bimbel"
-            android:layout_toRightOf="@id/iv_foto"
             android:layout_below="@id/tv_nama"
             android:maxLines="4"
             android:ellipsize="end"
             android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tentang"
+            android:ellipsize="end"
+            android:text="Alamat Bimbel"/>
+
+        <TextView
+            android:id="@+id/tv_koordinat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_alamat"
+            android:ellipsize="end"
+            android:text="Koordinat Maps"/>
+
+
 
     </RelativeLayout>
 

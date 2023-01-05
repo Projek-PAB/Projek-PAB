@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/tvw_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bimbel palembang \n nama anggota: \n 1. Dimas Valentino\n 2. Mia Divia \n 3. Reza Satria\n"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
