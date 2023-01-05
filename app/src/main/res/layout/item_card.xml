@@ -12,8 +12,8 @@
         
         <ImageView
             android:id="@+id/iv_foto"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:src="@mipmap/ic_launcher"/>
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="Deskripsi Bimbel"
             android:layout_below="@id/tv_nama"
-            android:maxLines="4"
+            android:maxLines="2"
             android:ellipsize="end"
             android:justificationMode="inter_word"/>
 
