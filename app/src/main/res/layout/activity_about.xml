@@ -4,14 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".About">
+    tools:context=".About"
+    android:background="@drawable/bg">
 
     <TextView
         android:id="@+id/tvw_about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bimbel palembang \n nama anggota: \n 1. Dimas Valentino\n 2. Mia Divia \n 3. Reza Satria\n"
+        android:text="Bimbel di kota Palembang \nNama Anggota: \n1. Dimas Valentino\n2. Mia Divia \n3. Reza Satria\n"
         android:layout_centerInParent="true"
-        android:textSize="25sp"/>
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:src="@drawable/ic_book"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/tvw_about"/>
 
 </RelativeLayout>
